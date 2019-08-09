@@ -25,11 +25,3 @@ args:
         help: Display the last song played from the provided channel
         takes_value: true
         value_name: channel
-    # - INPUT:
-    #     help: Sets the input file to use
-    #     required: true
-    #     index: 1
-    # - verbose:
-    #     short: v
-    #     multiple: true
-    #     help: Sets the level of verbosity
