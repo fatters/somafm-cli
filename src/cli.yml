@@ -1,0 +1,35 @@
+name: somafm-cli
+version: "1.0.0"
+author: fatters <mattallen27@gmail.com>
+about: cli for soma fm
+args:
+    - channels:
+        short: c
+        long: channels
+        help: Prints a list of SomaFm's channels
+    - play:
+        short: p
+        long: play
+        help: Play a channel using mpv command
+        takes_value: true
+        value_name: channel
+    - info:
+        short: i
+        long: info
+        help: Display the provided channel's information (TODO)
+        takes_value: true
+        value_name: channel
+    - last:
+        short: l
+        long: last
+        help: Display the last song played from the provided channel
+        takes_value: true
+        value_name: channel
+    # - INPUT:
+    #     help: Sets the input file to use
+    #     required: true
+    #     index: 1
+    # - verbose:
+    #     short: v
+    #     multiple: true
+    #     help: Sets the level of verbosity

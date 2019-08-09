@@ -1,0 +1,11 @@
+[package]
+name = "somafm-cli"
+version = "0.1.0"
+authors = ["fatters <mattallen27@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+clap = {version = "2.26.0", features = ["yaml"]}
+reqwest = "0.9.19"
+serde = { version = "1.0.98", features = ["derive"] }
+serde_derive = "1.0.98"
