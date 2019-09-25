@@ -1,8 +1,23 @@
 # somafm-cli
 
-A command line interface to interact with SomaFm. Play music from your terminal ([mpv](https://mpv.io) is required)
+A command line interface to interact with SomaFm. Play music from your terminal.
 
-This is a "learning rust" project so files are subject to massive change as I learn what I'm doing.
+### prerequisites
+* [mpv](https://mpv.io) - media player for the terminal
+
+### development
+
+running:
+```
+cargo run -- [command]
+```
+
+building:
+```
+cargo build
+```
+
+### help
 
 ```
 USAGE:
